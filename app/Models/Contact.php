@@ -13,15 +13,15 @@ class Contact extends Model
      * マスアサイメントで代入を許可する属性。
      */
     protected $fillable = [
-        'category_id'
-        'first_name'
-        'last_name'
-        'gender'
-        'email'
-        'tel'
-        'address'
-        'building'
-        'detail'
+        'category_id',
+        'first_name',
+        'last_name',
+        'gender',
+        'email',
+        'tel',
+        'address',
+        'building',
+        'detail',
     ];
 
     /**
